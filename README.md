@@ -10,7 +10,7 @@ Using FontAwesome icons converted to pngs with https://fa2png.app/ .
 1. `pxt target arcade` at top level
 2. `rm -rf node_modules/pxt-common-packages` to clear common packages (sometimes gets mixed up with icons)
 3. Add icon under `jres/icons/` as `{icon-name}-icon.png`
-4. Add entry to icons.ts as `"{icon-name}": {},`
+4. Add empty entry to icons.jres e.g. `"{icon-name}": {},` (no trailing comma after last entry in json blob)
 5. At top level run `pxt buildjres`
 6. `git tag v0.0.*` where star is current version +1
 7. `git push --tags`
