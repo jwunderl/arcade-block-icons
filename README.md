@@ -12,7 +12,8 @@ Using FontAwesome icons converted to pngs with https://fa2png.app/ .
 3. Add icon under `jres/icons/` as `{icon-name}-icon.png`
 4. Add entry to icons.ts as `"{icon-name}": {},`
 5. At top level run `pxt buildjres`
-6. Update and bump
+6. `git tag v0.0.*` where star is current version +1
+7. `git push --tags`
 
 ## Use as Extension
 
