@@ -1,6 +1,19 @@
 
 > Open this page at [https://jwunderl.github.io/arcade-block-icons/](https://jwunderl.github.io/arcade-block-icons/)
 
+
+Using FontAwesome icons converted to pngs with https://fa2png.app/ .
+
+
+## To update
+
+1. `pxt target arcade` at top level
+2. `rm -rf node_modules/pxt-common-packages` to clear common packages (sometimes gets mixed up with icons)
+3. Add icon under `jres/icons/` as `{icon-name}-icon.png`
+4. Add entry to icons.ts as `"{icon-name}": {},`
+5. At top level run `pxt buildjres`
+6. Update and bump
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
@@ -24,7 +37,6 @@ This image shows the blocks code from the last commit in master.
 This image may take a few minutes to refresh.
 
 ![A rendered view of the blocks](https://github.com/jwunderl/arcade-block-icons/raw/master/.github/makecode/blocks.png)
-
 #### Metadata (used for search, rendering)
 
 * for PXT/arcade

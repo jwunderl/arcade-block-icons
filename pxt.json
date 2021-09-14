@@ -2,16 +2,12 @@
     "name": "arcade-block-icons",
     "version": "0.0.1",
     "description": "",
-    "dependencies": {
-        "device": "*"
-    },
+    "dependencies": {},
     "files": [
         "README.md",
-        "main.blocks",
-        "main.ts"
+        "icons.jres"
     ],
     "testFiles": [
-        "test.ts"
     ],
     "public": true,
     "targetVersions": {
