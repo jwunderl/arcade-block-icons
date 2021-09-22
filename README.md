@@ -7,6 +7,10 @@ Using FontAwesome icons converted to pngs with https://fa2png.app/ .
 
 ## To update
 
+`{icon-name}` in steps below refers to the name you want to use for the icon; it is what will be after the namespace specified in the jres.
+
+For example, the namespace for `icons.jres` in this package is `ICON`, and one of the icons in that group is `arrow-up-solid`; this makes `{icon-name}` "arrow-up-solid" & the icon file name `arrow-up-solid-icon.png`.
+
 1. `pxt target arcade` at top level
 2. `rm -rf node_modules/pxt-common-packages` to clear common packages (sometimes gets mixed up with icons)
 3. Add icon under `jres/icons/` as `{icon-name}-icon.png`
